@@ -17,8 +17,7 @@ export function Home() {
         <MovieItem />
         <MovieItem />
         <MovieItem />
-        <MovieItem />
-        <MovieItem />
+      
       </Content>
       
     </Container>
