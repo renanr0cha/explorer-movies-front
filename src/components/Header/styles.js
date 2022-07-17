@@ -28,6 +28,7 @@ export const Container = styled.div`
   > div {
     display: flex;
     gap: 0.9rem;
+    justify-content: flex-end;
 
     width: 19.8rem;
 
@@ -62,6 +63,9 @@ export const Container = styled.div`
     border-radius: 50%;
     }
     
+    &:nth-child(3) {
+
+    }
   }
 `
 export const Form = styled.form`
