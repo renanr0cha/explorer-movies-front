@@ -9,7 +9,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5rem 12.3rem 4rem;
+    margin: 5rem 12.3rem 0;
 
     > h1 {
     font-size: 3.2rem;
@@ -24,7 +24,7 @@ export const Content = styled.div`
   flex-direction: column;
   gap: 2.4rem;
   overflow-y: scroll;
-  margin: 0 12.3rem;
+  margin: 5rem 12.3rem;
 
   > div {
 
