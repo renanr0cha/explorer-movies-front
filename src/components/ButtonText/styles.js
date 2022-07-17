@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: none;
   color: ${({ theme, isActive }) => isActive ? theme.COLORS.PINK : theme.COLORS.GRAY_100};
 
@@ -8,6 +11,6 @@ export const Container = styled.button`
   font-size: 1.6rem;
 
   svg {
-    margin-left: 1.6rem;
+    margin-right: 0.8rem;
   }
 `
