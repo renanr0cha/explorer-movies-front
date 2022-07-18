@@ -35,25 +35,37 @@ export const Container = styled.div`
     font-size: 2rem;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
 
-    margin-bottom: 4rem;
+    margin-bottom: 2.8rem;
   }
 `
 
 export const Form = styled.form`
   grid-area: form;
-  padding: 0 12.3rem;
+  overflow-y: auto;
+  margin: 0 12.3rem;
 
   div {
     display: flex;
     gap: 4rem;
+    height: 5.6rem;
   }
 
   > textarea {
     margin-block: 4rem;
   }
 
-  div:last-child {
+  > div.tag-wrapper {
+    background-color: black;
+    margin-bottom: 4rem;
+    height: 8.8rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    padding-left: 1.6rem;
+    gap: 2.4rem;
+    width: 100%;
+  }
 
+  div:last-child {
     button:first-child {
       background-color: black;
       color: ${({ theme }) => theme.COLORS.PINK};

@@ -15,11 +15,12 @@ export const Container = styled.div`
     height: 5.6rem;
     width: 100%;
 
-    padding: 1.2rem;
+    padding: 1.6rem;
 
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
-    border: 0;
+    border: none;
+    outline: none;
 
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300}
