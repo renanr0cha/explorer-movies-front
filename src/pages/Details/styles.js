@@ -11,7 +11,10 @@ export const Container = styled.div`
 
   > header {
     grid-area: header;
-    padding: 4rem 12.3rem 2.4rem;
+    margin: 4rem 12.3rem 0;
+    height: 2.1rem;
+    display: flex;
+    align-items: flex-start;
 
     button {
       color: ${({ theme}) => theme.COLORS.PINK};
@@ -20,10 +23,11 @@ export const Container = styled.div`
 `
 export const Content = styled.div`
   grid-area: content;
-  width: 113rem;
-  padding: 0 12.3rem;
+  width: 100%;
+  padding: 2.4rem 12.3rem 4rem;
+  overflow-y: auto;
 
-  > div {
+  > div.title {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -37,12 +41,23 @@ export const Content = styled.div`
       margin-right: 1rem;
       color: ${({ theme }) => theme.COLORS.PINK};
     }
+  }
 
+  > div.info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 4rem;
     img {
       height: 1.6rem;
       width: 1.6rem;
       border-radius: 50%;
-      margin-right: 0.8rem;
+    }
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+      color: ${({ theme }) => theme.COLORS.PINK};
     }
 
     span {
@@ -51,8 +66,17 @@ export const Content = styled.div`
       font-size: 1.6rem;
       font-weight: 400;
     }
+  }
 
+  > div.tagchips {
+    margin-bottom: 4rem;
+  }
 
-    
+  > p {
+    text-align: justify;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.5rem;
   }
 `
