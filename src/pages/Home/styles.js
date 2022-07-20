@@ -35,12 +35,6 @@ export const Content = styled.div`
 
     button {
       margin-top: 2rem;
-      padding: 0.5rem 1.6rem;
-      margin-right: 0.8rem;
-      background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
-      border: none;
-      border-radius: 0.8rem;
-      color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }
 

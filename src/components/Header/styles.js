@@ -20,6 +20,7 @@ export const Container = styled.div`
     font-weight: 700;
     font-size: 2.4rem;
     white-space: nowrap;
+    padding-right: 2.4rem;
 
     color: ${({ theme }) => theme.COLORS.PINK};
 
