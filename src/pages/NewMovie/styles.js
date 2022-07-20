@@ -63,6 +63,7 @@ export const Form = styled.form`
     padding-left: 1.6rem;
     gap: 2.4rem;
     width: 100%;
+
   }
 
   div:last-child {
