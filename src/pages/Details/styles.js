@@ -23,8 +23,7 @@ export const Container = styled.div`
 `
 export const Content = styled.div`
   grid-area: content;
-  width: 100%;
-  padding: 2.4rem 12.3rem;
+  margin: 2.4rem 12.3rem;
   overflow-y: auto;
 
   > div.title {

@@ -29,7 +29,7 @@ export const Content = styled.div`
   flex-direction: column;
   gap: 2.4rem;
   overflow-y: auto;
-  margin: 5rem 12.3rem;
+  margin: 4rem 12.3rem;
 
   > div {
 
