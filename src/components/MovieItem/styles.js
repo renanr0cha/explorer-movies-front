@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   padding: 3.2rem;
 
-  height: 22.2rem;
   background-color: ${({ theme }) => theme.COLORS.CLEAR_PINK};
   border-radius: 1.6rem;
 
@@ -16,6 +15,7 @@ export const Container = styled.div`
     margin-bottom: 0.8rem;
     font-size: 2.4rem;
     font-weight: 700;
+    color: ${({ theme }) => theme.COLORS.WHITE};
   }
 
   svg {
@@ -30,5 +30,6 @@ export const Container = styled.div`
     font-weight: 400;
     color: ${({ theme }) => theme.COLORS.GRAY_200};
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2.4rem;
   }
 `

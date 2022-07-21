@@ -10,7 +10,7 @@ export function SignUp() {
     <Container>
       <Form>
         <h1>Movie Rating</h1>
-        <span>Aplicação para acompanhar tudo que assistir</span>
+        <span>Aplicação para acompanhar tudo que você assistir</span>
 
         <h2>Crie sua conta</h2>
 
@@ -33,7 +33,7 @@ export function SignUp() {
 
         <Button title="Cadastrar" />
         
-        <ButtonText title="Voltar para o login" icon={BiArrowBack}/>
+        <ButtonText to="/" title="Voltar para o login" icon={BiArrowBack}/>
 
       </Form>
 

@@ -14,14 +14,12 @@ export const Container = styled.div`
     margin-top: 4rem;
     grid-area: header-content;
     padding: 0 12.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
 
-    button {
-      color: ${({ theme }) => theme.COLORS.PINK};
-      margin-bottom: 2.4rem;
-
-      font-weight: 400;
-      font-size: 1.6rem;
-    }
+   
 
     h1 {
       margin-bottom: 4rem;

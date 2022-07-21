@@ -9,7 +9,7 @@ export function SignIn() {
     <Container>
       <Form>
         <h1>Movie Rating</h1>
-        <span>Aplicação para acompanhar tudo que assistir</span>
+        <span>Aplicação para acompanhar tudo que você assistir</span>
 
         <h2>Faça seu login</h2>
 
@@ -26,7 +26,7 @@ export function SignIn() {
 
         <Button title="Entrar" />
         
-        <ButtonText title="Criar conta" />
+        <ButtonText to="/register" title="Criar conta" />
 
       </Form>
 

@@ -14,7 +14,7 @@ export function Details() {
     <Container>
       <Header />
       <header>
-        <ButtonText title="Voltar" icon={BiArrowBack}/>
+        <ButtonText to="/" title="Voltar" icon={BiArrowBack}/>
       </header>
       <Content>
         <div className="title">

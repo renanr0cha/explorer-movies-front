@@ -1,4 +1,4 @@
-import { Container, Form } from "./styles"
+import { Container, Form, Profile } from "./styles"
 
 import { Input } from "../Input"
 
@@ -12,17 +12,16 @@ export function Header() {
 
       </Form>
 
-
-      <div>
-        <div>
-          <strong>Renan Rocha</strong>
-          <span>sair</span>
-        </div>
-        <img
-          src="https://github.com/renanr0cha.png"
-          alt="Foto do usuário"
-        />
-      </div>
+        <Profile to="/profile">
+          <div>
+            <strong>Renan Rocha</strong>
+            <span>sair</span>
+          </div>
+          <img
+            src="https://github.com/renanr0cha.png"
+            alt="Foto do usuário"
+          />
+        </Profile>
     </Container>
   )
 }

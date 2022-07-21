@@ -15,7 +15,7 @@ export function NewMovie() {
     <Container>
       <Header />
       <header>
-        <ButtonText title="Voltar" icon={BiArrowBack}/>
+        <ButtonText to="/" title="Voltar" icon={BiArrowBack}/>
         <h1>Novo filme</h1>
       </header>
       <Form>
